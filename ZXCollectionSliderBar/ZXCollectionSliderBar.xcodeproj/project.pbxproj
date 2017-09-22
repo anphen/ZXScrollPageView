@@ -23,7 +23,6 @@
 		FBB4D9861EA89CE700655370 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = FBB4D9821EA89CE700655370 /* LICENSE */; };
 		FBB4D9871EA89CE700655370 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB4D9841EA89CE700655370 /* MBProgressHUD.m */; };
 		FBB4D9881EA89CE700655370 /* README.mdown in Sources */ = {isa = PBXBuildFile; fileRef = FBB4D9851EA89CE700655370 /* README.mdown */; };
-		FBB4D98E1EA8B08900655370 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB4D98D1EA8B08900655370 /* UIView+MJExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,8 +72,6 @@
 		FBB4D9831EA89CE700655370 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		FBB4D9841EA89CE700655370 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		FBB4D9851EA89CE700655370 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.mdown; sourceTree = "<group>"; };
-		FBB4D98C1EA8B08900655370 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
-		FBB4D98D1EA8B08900655370 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,8 +123,6 @@
 			isa = PBXGroup;
 			children = (
 				FBB4D9811EA89CE700655370 /* MBProgressHUD */,
-				FBB4D98C1EA8B08900655370 /* UIView+MJExtension.h */,
-				FBB4D98D1EA8B08900655370 /* UIView+MJExtension.m */,
 				FBB4D97E1EA89CC900655370 /* childVIew.m */,
 				FBB4D97F1EA89CC900655370 /* childVIew.h */,
 				FBB4D8A71EA5F99B00655370 /* AppDelegate.h */,
@@ -326,7 +321,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBB4D9881EA89CE700655370 /* README.mdown in Sources */,
-				FBB4D98E1EA8B08900655370 /* UIView+MJExtension.m in Sources */,
 				FBB4D9801EA89CC900655370 /* childVIew.m in Sources */,
 				FBB4D8E11EA5FB5C00655370 /* ZXCategorySliderBar.m in Sources */,
 				FBB4D8DD1EA5FA4800655370 /* ZXCategoryItemView.m in Sources */,
