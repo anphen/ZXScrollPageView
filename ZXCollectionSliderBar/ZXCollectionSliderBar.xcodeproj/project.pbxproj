@@ -125,9 +125,9 @@
 		FBB4D8A31EA5F99B00655370 /* ZXCollectionSliderBar */ = {
 			isa = PBXGroup;
 			children = (
+				FBB4D9811EA89CE700655370 /* MBProgressHUD */,
 				FBB4D98C1EA8B08900655370 /* UIView+MJExtension.h */,
 				FBB4D98D1EA8B08900655370 /* UIView+MJExtension.m */,
-				FBB4D9811EA89CE700655370 /* MBProgressHUD */,
 				FBB4D97E1EA89CC900655370 /* childVIew.m */,
 				FBB4D97F1EA89CC900655370 /* childVIew.h */,
 				FBB4D8A71EA5F99B00655370 /* AppDelegate.h */,
