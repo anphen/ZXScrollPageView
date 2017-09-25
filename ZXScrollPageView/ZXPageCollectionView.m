@@ -3,7 +3,7 @@
 //  ZXPageScrollView
 //
 //  Created by zhaoxu on 2017/3/29.
-//  Copyright © 2017年 SUNING. All rights reserved.
+//  Copyright © 2017年 zhaoxu. All rights reserved.
 //
 
 #import "ZXPageCollectionView.h"
