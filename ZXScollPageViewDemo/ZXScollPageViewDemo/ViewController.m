@@ -27,7 +27,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor grayColor];
     
-    self.itemArray =@[@"家电", @"大家电", @"小家电", @"厨房电器", @"生活用品",@"家电",@"家电", @"大家电", @"小家电", @"厨房电器", @"生活用品",@"家电",@"家电", @"大家电", @"小家电", @"厨房电器", @"生活用品",@"家电"];
+    self.itemArray =@[@"厨房电", @"厨房电", @"厨房电", @"厨房电" ];
     self.sliderBar.originIndex = 2;
     self.sliderBar.itemArray = self.itemArray;
     [self.view addSubview:self.sliderBar];
