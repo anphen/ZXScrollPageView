@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
   
   s.name         = "ZXScrollPageView"
-  s.version      = "1.1.2"
+  s.version      = "1.2.0"
   s.summary      = "一个可滚动pageView"
   s.platform     = :ios, "7.0"
 

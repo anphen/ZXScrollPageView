@@ -273,9 +273,9 @@ NSString *const RESETCOLORNOTIFICATION = @"RESETCOLORNOTIFICATION";
 {
     if (!_flowLayout) {
         _flowLayout = [[UICollectionViewFlowLayout alloc]init];
-        _flowLayout.minimumLineSpacing = 0;
-        _flowLayout.minimumInteritemSpacing = itemInteval;
         _flowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
+        _flowLayout.minimumLineSpacing = itemInteval;
+        _flowLayout.minimumInteritemSpacing = itemInteval;
         _flowLayout.sectionInset = UIEdgeInsetsMake(0, itemInteval, 0, itemInteval);
     }
     return _flowLayout;
