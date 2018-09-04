@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
   
   s.name         = "ZXScrollPageView"
-  s.version      = "1.2.0"
+  s.version      = "1.2.1"
   s.summary      = "一个可滚动pageView"
   s.platform     = :ios, "7.0"
 
@@ -16,5 +16,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/anphen/ZXScrollPageView.git", :tag => "#{s.version}" }
 
   s.source_files  =  "ZXScrollPageView/*"
+
+  s.resource = "ZXScrollPageView/ZXCategoryItemView.xib"
 
 end

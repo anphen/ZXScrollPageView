@@ -204,12 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBADE27F1F74F45200F0B1D7 /* Build configuration list for PBXNativeTarget "ZXScollPageViewDemo" */;
 			buildPhases = (
+				F342F1F9FED2F649A43EE91A /* [CP] Check Pods Manifest.lock */,
 				6FDEE104F47115CBAD8BE87D /* 📦 Check Pods Manifest.lock */,
 				FBADE24F1F74F45200F0B1D7 /* Sources */,
 				FBADE2501F74F45200F0B1D7 /* Frameworks */,
 				FBADE2511F74F45200F0B1D7 /* Resources */,
-				A5F9077A1C76E864F254C8A7 /* 📦 Embed Pods Frameworks */,
-				D847BC18302C2EA8055455AD /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -224,12 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBADE2821F74F45200F0B1D7 /* Build configuration list for PBXNativeTarget "ZXScollPageViewDemoTests" */;
 			buildPhases = (
+				9F5E244558569F4F7E570085 /* [CP] Check Pods Manifest.lock */,
 				C4A187E7E38C92DA8434EA39 /* 📦 Check Pods Manifest.lock */,
 				FBADE2671F74F45200F0B1D7 /* Sources */,
 				FBADE2681F74F45200F0B1D7 /* Frameworks */,
 				FBADE2691F74F45200F0B1D7 /* Resources */,
-				A12A8CF34969B0242994A857 /* 📦 Embed Pods Frameworks */,
-				10D1A3653DBDC639AC45289B /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,11 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBADE2851F74F45200F0B1D7 /* Build configuration list for PBXNativeTarget "ZXScollPageViewDemoUITests" */;
 			buildPhases = (
+				C0B5DA19D32A98D111B6840D /* [CP] Check Pods Manifest.lock */,
 				AFFD3C11F42CEA013F423624 /* 📦 Check Pods Manifest.lock */,
 				FBADE2721F74F45200F0B1D7 /* Sources */,
 				FBADE2731F74F45200F0B1D7 /* Frameworks */,
 				FBADE2741F74F45200F0B1D7 /* Resources */,
-				937D34586DA99EFB136A96CB /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -272,7 +270,7 @@
 				TargetAttributes = {
 					FBADE2521F74F45200F0B1D7 = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					FBADE26A1F74F45200F0B1D7 = {
 						CreatedOnToolsVersion = 9.0;
@@ -333,21 +331,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		10D1A3653DBDC639AC45289B /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZXScollPageViewDemoTests/Pods-ZXScollPageViewDemoTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6FDEE104F47115CBAD8BE87D /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -363,49 +346,22 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		937D34586DA99EFB136A96CB /* 📦 Copy Pods Resources */ = {
+		9F5E244558569F4F7E570085 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZXScollPageViewDemoTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZXScollPageViewDemoUITests/Pods-ZXScollPageViewDemoUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A12A8CF34969B0242994A857 /* 📦 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZXScollPageViewDemoTests/Pods-ZXScollPageViewDemoTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A5F9077A1C76E864F254C8A7 /* 📦 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZXScollPageViewDemo/Pods-ZXScollPageViewDemo-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AFFD3C11F42CEA013F423624 /* 📦 Check Pods Manifest.lock */ = {
@@ -423,6 +379,24 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		C0B5DA19D32A98D111B6840D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZXScollPageViewDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C4A187E7E38C92DA8434EA39 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -438,19 +412,22 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		D847BC18302C2EA8055455AD /* 📦 Copy Pods Resources */ = {
+		F342F1F9FED2F649A43EE91A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZXScollPageViewDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZXScollPageViewDemo/Pods-ZXScollPageViewDemo-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -611,13 +588,14 @@
 			baseConfigurationReference = B87FE28C92706A048DB61554 /* Pods-ZXScollPageViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 92U93F5ZFJ;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ZXScollPageViewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.anphen.ZXScollPageViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -627,13 +605,14 @@
 			baseConfigurationReference = EFF2BEEA514BF78B560A18E7 /* Pods-ZXScollPageViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 92U93F5ZFJ;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ZXScollPageViewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.anphen.ZXScollPageViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
