@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
 
   s.source_files  =  "ZXScrollPageView/*"
 
-  s.resource = "ZXScrollPageView/ZXCategoryItemView.xib"
+  s.resources = "ZXScrollPageView/ZXCategoryItemView.xib"
 
 end
