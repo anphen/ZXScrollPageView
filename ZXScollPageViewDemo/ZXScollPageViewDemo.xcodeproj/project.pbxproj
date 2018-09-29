@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		31D93F75B3D4AB88B884FEF8 /* libPods-ZXScollPageViewDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B84297317A019460E29A7A /* libPods-ZXScollPageViewDemoUITests.a */; };
 		4919AA9D5EB23D8D8C99FE2E /* libPods-ZXScollPageViewDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86887E0975A51E675A0ED1E0 /* libPods-ZXScollPageViewDemoTests.a */; };
+		6E46F902215FD9EE00C4A3AF /* ZXPageCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E46F8FC215FD9EE00C4A3AF /* ZXPageCollectionView.m */; };
+		6E46F903215FD9EE00C4A3AF /* ZXCategorySliderBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E46F8FE215FD9EE00C4A3AF /* ZXCategorySliderBar.m */; };
+		6E46F904215FD9EE00C4A3AF /* ZXCategoryItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E46F8FF215FD9EE00C4A3AF /* ZXCategoryItemView.xib */; };
+		6E46F905215FD9EE00C4A3AF /* ZXCategoryItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E46F900215FD9EE00C4A3AF /* ZXCategoryItemView.m */; };
 		7924B8349ACDD23C49F372C4 /* libPods-ZXScollPageViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EA87BAE7D745E494FD6E95 /* libPods-ZXScollPageViewDemo.a */; };
 		FBADE2581F74F45200F0B1D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBADE2571F74F45200F0B1D7 /* AppDelegate.m */; };
 		FBADE25B1F74F45200F0B1D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBADE25A1F74F45200F0B1D7 /* ViewController.m */; };
@@ -17,10 +21,6 @@
 		FBADE2701F74F45200F0B1D7 /* ZXScollPageViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBADE26F1F74F45200F0B1D7 /* ZXScollPageViewDemoTests.m */; };
 		FBADE27B1F74F45200F0B1D7 /* ZXScollPageViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBADE27A1F74F45200F0B1D7 /* ZXScollPageViewDemoUITests.m */; };
 		FBADE28A1F74F46500F0B1D7 /* childVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = FBADE2891F74F46500F0B1D7 /* childVIew.m */; };
-		FBADE2931F74F51000F0B1D7 /* ZXCategoryItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBADE28D1F74F46C00F0B1D7 /* ZXCategoryItemView.m */; };
-		FBADE2941F74F51200F0B1D7 /* ZXCategoryItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBADE28E1F74F46C00F0B1D7 /* ZXCategoryItemView.xib */; };
-		FBADE2951F74F51900F0B1D7 /* ZXCategorySliderBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FBADE2901F74F46C00F0B1D7 /* ZXCategorySliderBar.m */; };
-		FBADE2961F74F52100F0B1D7 /* ZXPageCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBADE2921F74F46C00F0B1D7 /* ZXPageCollectionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +42,13 @@
 
 /* Begin PBXFileReference section */
 		23B84297317A019460E29A7A /* libPods-ZXScollPageViewDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZXScollPageViewDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E46F8FB215FD9EE00C4A3AF /* ZXCategorySliderBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCategorySliderBar.h; sourceTree = "<group>"; };
+		6E46F8FC215FD9EE00C4A3AF /* ZXPageCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXPageCollectionView.m; sourceTree = "<group>"; };
+		6E46F8FD215FD9EE00C4A3AF /* ZXCategoryItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCategoryItemView.h; sourceTree = "<group>"; };
+		6E46F8FE215FD9EE00C4A3AF /* ZXCategorySliderBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCategorySliderBar.m; sourceTree = "<group>"; };
+		6E46F8FF215FD9EE00C4A3AF /* ZXCategoryItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZXCategoryItemView.xib; sourceTree = "<group>"; };
+		6E46F900215FD9EE00C4A3AF /* ZXCategoryItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCategoryItemView.m; sourceTree = "<group>"; };
+		6E46F901215FD9EE00C4A3AF /* ZXPageCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXPageCollectionView.h; sourceTree = "<group>"; };
 		77081952DC872A3D3895D8C4 /* Pods-ZXScollPageViewDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXScollPageViewDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZXScollPageViewDemoUITests/Pods-ZXScollPageViewDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		840BB40746516D3A503DBF3B /* Pods-ZXScollPageViewDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXScollPageViewDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZXScollPageViewDemoTests/Pods-ZXScollPageViewDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		85382E42961DA5A9A7DF4184 /* Pods-ZXScollPageViewDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXScollPageViewDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZXScollPageViewDemoTests/Pods-ZXScollPageViewDemoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -66,13 +73,6 @@
 		FBADE27C1F74F45200F0B1D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBADE2881F74F46500F0B1D7 /* childVIew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = childVIew.h; sourceTree = "<group>"; };
 		FBADE2891F74F46500F0B1D7 /* childVIew.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = childVIew.m; sourceTree = "<group>"; };
-		FBADE28C1F74F46C00F0B1D7 /* ZXCategoryItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXCategoryItemView.h; sourceTree = "<group>"; };
-		FBADE28D1F74F46C00F0B1D7 /* ZXCategoryItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXCategoryItemView.m; sourceTree = "<group>"; };
-		FBADE28E1F74F46C00F0B1D7 /* ZXCategoryItemView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZXCategoryItemView.xib; sourceTree = "<group>"; };
-		FBADE28F1F74F46C00F0B1D7 /* ZXCategorySliderBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXCategorySliderBar.h; sourceTree = "<group>"; };
-		FBADE2901F74F46C00F0B1D7 /* ZXCategorySliderBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXCategorySliderBar.m; sourceTree = "<group>"; };
-		FBADE2911F74F46C00F0B1D7 /* ZXPageCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXPageCollectionView.h; sourceTree = "<group>"; };
-		FBADE2921F74F46C00F0B1D7 /* ZXPageCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXPageCollectionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +103,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E46F8FA215FD9EE00C4A3AF /* ZXScrollPageView */ = {
+			isa = PBXGroup;
+			children = (
+				6E46F8FB215FD9EE00C4A3AF /* ZXCategorySliderBar.h */,
+				6E46F8FC215FD9EE00C4A3AF /* ZXPageCollectionView.m */,
+				6E46F8FD215FD9EE00C4A3AF /* ZXCategoryItemView.h */,
+				6E46F8FE215FD9EE00C4A3AF /* ZXCategorySliderBar.m */,
+				6E46F8FF215FD9EE00C4A3AF /* ZXCategoryItemView.xib */,
+				6E46F900215FD9EE00C4A3AF /* ZXCategoryItemView.m */,
+				6E46F901215FD9EE00C4A3AF /* ZXPageCollectionView.h */,
+			);
+			name = ZXScrollPageView;
+			path = ../../ZXScrollPageView;
+			sourceTree = "<group>";
+		};
 		7290EDD1A8B8EB045382BE46 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,7 +166,7 @@
 		FBADE2551F74F45200F0B1D7 /* ZXScollPageViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				FBADE28B1F74F46C00F0B1D7 /* ZXScrollPageView */,
+				6E46F8FA215FD9EE00C4A3AF /* ZXScrollPageView */,
 				FBADE2881F74F46500F0B1D7 /* childVIew.h */,
 				FBADE2891F74F46500F0B1D7 /* childVIew.m */,
 				FBADE2561F74F45200F0B1D7 /* AppDelegate.h */,
@@ -181,20 +196,6 @@
 				FBADE27C1F74F45200F0B1D7 /* Info.plist */,
 			);
 			path = ZXScollPageViewDemoUITests;
-			sourceTree = "<group>";
-		};
-		FBADE28B1F74F46C00F0B1D7 /* ZXScrollPageView */ = {
-			isa = PBXGroup;
-			children = (
-				FBADE28C1F74F46C00F0B1D7 /* ZXCategoryItemView.h */,
-				FBADE28D1F74F46C00F0B1D7 /* ZXCategoryItemView.m */,
-				FBADE28E1F74F46C00F0B1D7 /* ZXCategoryItemView.xib */,
-				FBADE28F1F74F46C00F0B1D7 /* ZXCategorySliderBar.h */,
-				FBADE2901F74F46C00F0B1D7 /* ZXCategorySliderBar.m */,
-				FBADE2911F74F46C00F0B1D7 /* ZXPageCollectionView.h */,
-				FBADE2921F74F46C00F0B1D7 /* ZXPageCollectionView.m */,
-			);
-			path = ZXScrollPageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,8 +310,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBADE2941F74F51200F0B1D7 /* ZXCategoryItemView.xib in Resources */,
 				FBADE2601F74F45200F0B1D7 /* Assets.xcassets in Resources */,
+				6E46F904215FD9EE00C4A3AF /* ZXCategoryItemView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,13 +438,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBADE2931F74F51000F0B1D7 /* ZXCategoryItemView.m in Sources */,
-				FBADE2961F74F52100F0B1D7 /* ZXPageCollectionView.m in Sources */,
+				6E46F905215FD9EE00C4A3AF /* ZXCategoryItemView.m in Sources */,
 				FBADE25B1F74F45200F0B1D7 /* ViewController.m in Sources */,
 				FBADE28A1F74F46500F0B1D7 /* childVIew.m in Sources */,
 				FBADE2661F74F45200F0B1D7 /* main.m in Sources */,
-				FBADE2951F74F51900F0B1D7 /* ZXCategorySliderBar.m in Sources */,
 				FBADE2581F74F45200F0B1D7 /* AppDelegate.m in Sources */,
+				6E46F903215FD9EE00C4A3AF /* ZXCategorySliderBar.m in Sources */,
+				6E46F902215FD9EE00C4A3AF /* ZXPageCollectionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
